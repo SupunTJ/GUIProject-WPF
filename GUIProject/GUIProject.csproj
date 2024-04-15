@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\1.jpg" />
+    <None Remove="Images\2.jpg" />
+    <None Remove="Images\addicon.png" />
+    <None Remove="Images\dbicon.png" />
+    <None Remove="Images\delicon.png" />
+    <None Remove="Images\editicon.png" />
+    <None Remove="Images\EE.jpg" />
+    <None Remove="Images\key.png" />
+    <None Remove="Images\logicon.png" />
+    <None Remove="Images\logo-removebg-preview.png" />
+    <None Remove="Images\newuser.png" />
+    <None Remove="Images\readicon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\1.jpg" />
+    <Resource Include="Images\2.jpg" />
+    <Resource Include="Images\addicon.png" />
+    <Resource Include="Images\dbicon.png" />
+    <Resource Include="Images\delicon.png" />
+    <Resource Include="Images\editicon.png" />
+    <Resource Include="Images\EE.jpg" />
+    <Resource Include="Images\key.png" />
+    <Resource Include="Images\logicon.png" />
+    <Resource Include="Images\logo-removebg-preview.png" />
+    <Resource Include="Images\newuser.png" />
+    <Resource Include="Images\readicon.png" />
+  </ItemGroup>
+
+</Project>
